@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+        <link rel="stylesheet" type="text/css" href="css/index.css" />
+        <!--<link rel="stylesheet" type="text/css" href="css/theme1.css" />-->
+        <title>A Gallery</title>
+<style>
+
+</style>
+    </head>
+    <body style="">
+        <div data-role="page" id="mainPage" style="">
+            <div data-role="header" id="mainHeader" data-position="fixed" style="">
+                <a href='#' style='' class='my-ui-btn ui-btn-left' data-icon='arrow-l' onclick="history.back(); return false">Back</a>
+                <h3>A Gallery</h3>
+                <a href='#' style='' class='my-ui-btn ui-btn-right' data-icon='arrow-u' data-icon-pos='right' onclick="window.location.reload();">Top</a>
+                <form class="ui-filterable" style="padding:0 15px;">
+                    <input id="myFilterA" data-type="search" placeholder="Search for words...">
+                </form>
+            </div>
+            <div data-role="main" class="ui-content" style="">
+
+                <ul data-role="listview" data-filter="true" data-input="#myFilterA" data-autodividers="false" data-inset="true">
+                    <li><p class='first'>Abide by (মেনে চলা) -Students should abide by their parents advice.</p></li>
+                    <li><p class='first'>Abide with (সঙ্গে থাকা) -He abides with me.</p></li>
+                    <li><p class='first'>Abide in (বাস করা) -I abide in Dhaka.</p></li>
+                    <li><p class='first'>Abound with (পূর্ণ থাকা) -The Padma abounds with fishes.</p></li>
+                    <li><p class='first'>Abound in (প্রচুর পরিমাণে থাকা) -Fish abounds in the Padma.</p></li>
+                    <li><p class='first'>Absorbed in (নিমগ্ন) -He is absorbed in deep studies.</p></li>
+                    <li><p class='first'>Absent from (অনুপস্থিত) -He was absent from the meeting.</p></li>
+                    <li><p class='first'>Absence from (অনুপস্থিতি) -His absence from the function shocked me much.</p></li>
+                    <li><p class='first'>Absolve(মুক্ত করা) (one) from (blame) -I absolve you from blame.</p></li>
+                    <li><p class='first'>Absolve (মুক্ত করা) (one) of (sin) -The priest absolved him of sin.</p></li>
+                    <li><p class="first">Abstain from (বিরত থাকা) -Everyone should abstain from smoking.</p></li>
+                    <li><p class="first">Abhorance of (ঘৃণা) -A drunkard has no abhorance of wine.</p></li>
+                    <li><p class="first">Abhorent to (ঘৃণা) -Drinking is abhorent to me.</p></li>
+                    <li><p class="first">Accede to (রাজী হওয়া) -I acceded to his request.</p></li>
+                    <li><p class="first">Acclimatize to(নতুন কোন স্থানে/জলবায়ুতে খাপ খাওয়ানো) -I will need some time to get acclimatized to the new surroundings.</p></li>
+                    <li><p class="first">Accuse of(অভিযোগ করা) -He was accused of theft.</p></li>
+                    <li><p class="first">Access to (নিকটে যাবার অধিকার) -W have easy access to our headmaster.</p></li>
+                    <li><p class="first">Accessible to (অভিগম্য) -Roni is accessible to all.</p></li>
+                    <li><p class="first">Acceptable to(গ্রহনযোগ্য) -Your offer is acceptable to me.</p></li>
+                    <li><p class="first">Accommodate(one)with(a loan) (সাহায্য করা) -He accommodated me with a loan.</p></li>
+                    <li><p class="first">Accommodate to (খাপ খাওয়ানো) -You should accommodate yourself to any circumstances.</p></li>
+                    <li><p class="first">Accompanied by (সাথে নিয়ে) -The politician joined the meeting accompanied by his supporters.</p></li>
+                    <li><p class="first">Accompanied with(একসঙ্গে ঘটা) -He has fever accompanied with headache.</p></li>
+                    <li><p class="first">Accomplished in (দক্ষ) -The boy is accomplished in programming.</p></li>
+                    <li><p class="first">Accord to (প্রদান করা) -They accorded a grand reception to the leader.</p></li>
+                    <li><p class="first">According to (অনুসারে) -He acted according to my advice.</p></li>
+                    <li><p class="first">Account for (কোনো কিছুর জন্য কৈফিয়ত দেওয়া) -We shall have to account to Allah for our deeds.</p></li>
+                    <li><p class="first">Account to (কারো কাছে কৈফিয়ত দেওয়া) -We shall have to account to Allah for our deeds.</p></li>
+                    <li><p class="first"> Accountable to (কারো কাছে কোনো কিছুর জন্য দায়ী) -We are accountable to Allah for our deeds. </p></li>
+                    <li><p class="first">Accrue(fail)to(one),from(a thing) -Great benefit will accrue to the country from the measure.</p></li>
+                    <li><p class="first">Acquiesce in(রাজী হওয়া) -They acquiesced in the proposal.</p></li>
+                    <li><p class="first">Acquit of (বেকসুর খালাস দেওয়া) -He was acquitted of the charge of murder.</p></li>
+                    <li><p class="first">Acquainted with(পরিচিত) -I am acquainted with him. </p></li>
+                    <li><p class="first">Accustomed to (অভ্যস্থ) -Subeen was accustomed to hard work. </p></li>
+                    <li><p class="first">Add to (যোগ দেয়া) -Add this to that.</p></li>
+                    <li><p class="first">Adhere to (লেগে থাকা) -I must adhere to my principles.</p></li>
+                    <li><p class="first">Adjourned to,for (মুলতুবি থাকা) -The meeting was adjourned to next(or for a week).</p></li>
+                    <li><p class="first">Admit of(excuse) -Your conduct admits of no excuse.</p></li>
+                    <li><p class="first">Addicted to (খারাপ কাজে আসক্ত) -He is addicted to smoking. </p></li>
+                    <li><p class="first">Addiction to (মন্দকাজে আসক্তি) -Addiction to gambling is very bad.</p></li>
+                    <li><p class="first">Adjacent to (সংলগ্ন) -His house is adjacent to mine.</p></li>
+                    <li><p class="first">Adapted from (গৃহীত) -The story is adapted from Alif Laila.</p></li>
+                    <li><p class="first">Adequate to (পর্যাপ্ত) -This little amount of money is adequate to my purpose.</p></li>
+                    <li><p class="first">Adapted for (উপযোগী) -</p></li>
+                    <li><p class="first">Admit to (ভর্তি হওয়া) -I was admitted to SUST.</p></li>
+                    <li><p class="first">Advantageous to (সুবিধাজনক) -This rule is advantageous to us.</p></li>
+                    <li><p class="first">Adverse to (প্রতিকূল) -The new rule is adverse to our interests.</p></li>
+                    <li><p class="first">Affection for,towards (স্নেহ) -She has affection for or towards her baby.</p></li>
+                    <li><p class="first">Affectionate to,towards (স্নেহপরায়ন) -She is affectionate to me.</p></li>
+                    <li><p class="first">Affinity between(two things) (সাদৃশ্য) -There is an affinity between the two languages.</p></li>
+				  <li><p class="first">Affix to,on (এঁটে দেওয়া) -Affix this stamp to or on the letter.</p></li>
+				  <li><p class="first">Afficted with (ব্যাথাক্লিষ্ট) -He is afficted with gout.</p></li>
+				  <li><p class="first">Affraid of (ভীত) -I am not affraid of ghosts.</p></li>
+				  <li><p class="first">Agree with(ব্যক্তির সাথে রাজি হওয়া),on(কোন বিষয়ে রাজি হওয়া),to(কোন প্রস্তাবে রাজি হওয়া) -I agree with you on this point,but I can not agree to all proposals.</p></li>
+				  <li><p class="first">Argue with (তর্ক করা) -Students should not argue with their teachers.</p></li>
+				  <li><p class="first">Agreeable to (রুচিসম্মত) -The climate of the place is agreeable to me.</p></li>
+				  <li><p class="first">Agog with (অধীর আগ্রহে) -The boys were agog with excitement at the start of the match.</p></li>
+				  <li><p class="first">Ahead of (সামনে) -Shariar Monjur reached here much ahead of the scheduled time.</p></li>
+				  <li><p class="first">Aim at (লক্ষ করা) -He aimed his gun at the bird.</p></li>
+				  <li><p class="first">Akin to (সাদৃশপূর্ণ) -My feeling for him is akin to my pity.</p></li>
+				  <li><p class="first">Alarmed at,by(আতঙ্কিত) -We were alarmed at(or by) the news.</p></li>
+				  <li><p class="first">Alarmed for (আতঙ্কগ্রস্ত) -I am alarmed for her safety.</p></li>
+				  <li><p class="first">Alight from (নামা,অবতরণ করা)(a vehicle),at,on -He alighted from the car at the park.The bird alighted on the house top.</p></li>
+				  <li><p class="first">Align with (সহযোগিতা করা) -The passers-by aligned with the police to fight the dacoits.</p></li>
+				  <li><p class="first">Allegiance to (আনুগত্য) -One must show allegiance to one's leader.</p></li>
+				  <li><p class="first">Alliance with (মিত্রতা) -Bangladesh has formed an alliance with Chaina.</p></li>
+				  <li><p class="first">Allied with (মিত্রতাবদ্ধ) -Bangladesh is allied with Chaina.</p></li>
+				  <li><p class="first">Alive to (জ্ঞাত) -A politican is always alive to his flatters.</p></li>
+				  <li><p class="first">Alien to (বিরোধী) -Flattery is alien to my nature.</p></li>
+				  <li><p class="first">Allot to (বিলি করা) -The shares were alloted to the partners.</p></li>
+				  <li><p class="first">Allocate to (বরাদ্দ করা) -The money was allocated to the club for social work.</p></li>
+				  <li><p class="first">Allude to (উল্লেখ করা) -He alluded to the story in his writing.</p></li>
+				  <li><p class="first">Aloof from (সরে থাকা) -Keep yourself aloof from bad companies.</p></li>
+				  <li><p class="first">Alternate with (পর্যায়ক্রমে ঘটে) -Light alternates with darkness.</p></li>
+				  <li><p class="first">Alternative to (বিকল্প) -This question is alternative to that.</p></li>
+				  <li><p class="first">Amazed at (বিস্মিত) -The authoress was amazed at Faruk's sense of duty.</p></li>
+				  <li><p class="first">Ambition for (উচ্চাকাঙ্খা) -Jafar has no ambition for fame in life.</p></li>
+				  <li><p class="first">Amenable to (বাধ্য) -The lady is not amenable to reason.</p></li>
+				  <li><p class="first">Ambitious of (উচ্চাভিলাষী) -I am not ambitious of fame.</p></li>
+				  <li><p class="first">Amount to (পরিমাণ হওয়া) -What does the total amount to?</p></li>
+				  <li><p class="first">Amused at,by,with (কৌতুকবোধ করা) -I am amused at or by or with your story.</p></li>
+				  <li><p class="first">Analogy between(two things) (মিল) -The teacher drew an analogy between the human heart and a pump.</p></li>
+				  <li><p class="first">Angry with(a person) for(having done something) at(one's conduct) (ক্রুব্ধ) -He is angry with me for speaking against him.I am angry at your conduct.</p></li>
+				  <li><p class="first">Angry at,about(a thing) (রাগাণ্বিত) -He is angry at or about my failure.</p></li>
+				  <li><p class="first">Annex to (সংযোজিত করা) -Annex this slip to the letter.</p></li>
+				  <li><p class="first">Annoyed with(a persion),for(something) (বিরক্ত) -I was annoyed with him for being late.</p></li>
+				  <li><p class="first">Anxious about,for (উদ্বিগ্ন) -I am anxious about your health.</p></li>
+				  <li><p class="first">Antidote to,for or against (প্রতিষেধক) -Paracetamol is antidote to/for/against faver and headache.</p></li>
+				  <li><p class="first">Annoyed for (কোন কিছু করার জন্য কারো প্রতি বিরক্ত) -He was annoyed with me for my going there.</p></li>
+				  <li><p class="first">Answer to (উত্তর দেয়া) -He answered to my questions.</p></li>
+				  <li><p class="first">Answer for (কোন কিছুর জন্য জবাবদিহি করা) -We are to answer to Allah for our actions.</p></li>
+				  <li><p class="first">Antecedent(adj.) to (পূর্ববর্তী) -Happenings antecedent to his disapearance are being examined.</p></li>
+				  <li><p class="first">Antecedent (noun) of (পূর্ব পরিচয়) -The antecedents of the persion are not known to me.</p></li>
+				  <li><p class="first">Antipathy to (কোন কিছুর প্রতি বিদ্বেষ) against -I have an antipathy to smoking.</p></li>
+				  <li><p class="first">Antipathy against (কারো প্রতি বিরাগ) -I have antipathy against him.</p></li>
+				  <li><p class="first">Anxious for (উদ্বিগ্ন) -I am anxious for(earnestly desirous of)the prize.</p></li>
+				  <li><p class="first">Apathy towards (অনীহা) -He has a great apathy towards his studies.</p></li>
+				  <li><p class="first">Apologise to (কারো কাছে ক্ষমা চাওয়া) -The student apologised to the Principal for his misbehaviour.</p></li>
+				  <li><p class="first">Apologise for (কোন কিছুর জন্য ক্ষমা চাওয়া) -</p></li>
+				  <li><p class="first">Append to (সংযুক্ত করা) -A certificate from the Headmaster is appended to the application.</p></li>
+				  <li><p class="first">Appendix to (পরিশিষ্ট) -Please look at the appendix to the main chapter.</p></li>
+				  <li><p class="first">Apply for (দরখাস্ত করা) to(কারো প্রতি) -I applied to him for the post.</p></li>
+				  <li><p class="first">Apposition to,with</p></li>
+				  <li><p class="first">Apprehensive of (ভীত) -I am apprehensive of failure.</p></li>
+				  <li><p class="first">Apprised of (জ্ঞাত) -We were duly apprised of the event.</p></li>
+				  <li><p class="first">Appear before (হাজির হওয়া) -It appears before me that he is innocent.</p></li>
+				  <li><p class="first">Appear to (প্রতীয়মান হওয়া) -It appears to me that he is innocent.</p></li>
+				  <li><p class="first">Appear in (প্রকাশিত হওয়া) -The news appeared in the Ittefaq.</p></li>
+				  <li><p class="first">Appeal to (কারো কাছে আবেদন করা) for(কোনো কিছুর..) -I appealed to him for help.</p></li>
+				  <li><p class="first">Appeal to,against (পুনরায় বিচার করা) -He appealed to the Supreme Court against the judgement.</p></li>
+				  <li><p class="first">Apply to (প্রয়োগ করা) -The rule does not apply to my case.</p></li>
+				  <li><p class="first">Apology for (ক্ষমা প্রা র্থনা করা) -The student had to apology to the teacher for his misbehaviour.</p></li>
+				  <li><p class="first">Appropriate to (উপযুক্ত) -His remark was appropriate to the occasion.</p></li>
+				  <li><p class="first">Appetite for (ক্ষুধা) -I have no appetite for food.</p></li>
+				  <li><p class="first">Apprise of (জ্ঞাত করা) -I would like to apprise you of the fact.</p></li>
+				  <li><p class="first">Aptitude for (প্রবণতা) -The girl has a great aptitude for music.</p></li>
+				  <li><p class="first">Argue about (যুক্তি প্রদর্শন করা) or over (something) -I don't want to argue with you about(or over)the decision.</p></li>
+				  <li><p class="first">Argue against or for(something)-He argued against(or for)the bill.</p></li>
+				  <li><p class="first">Ascribe to (আরোপ করা) -Don't ascribe any motive to my action.</p></li>
+				  <li><p class="first">Ashamed of (লজ্জিত) -I am ashamed of his conduct.</p></li>
+				  <li><p class="first">Astonished at (বিস্মিত) -The authoress was astonished at Kaikobad's integrity.</p></li>
+				  <li><p class="first">Ashure of (নিশ্চিত করা) -I assured him of my help.</p></li>
+				  <li><p class="first">Ask(a person)for (চাওয়া) (a thing) -He asked me for a loan.</p></li>
+				  <li><p class="first">Ask(কাউকে খোঁজ করা) about,after -He asked about or after you.</p></li>
+				  <li><p class="first">Aspirant to (উচ্চাকাঙ্খী) -My friend is an aspirant to the post of the Principle.</p></li>
+				  <li><p class="first">Aspiration for,after(উচ্চাকাঙ্খা) -I have no aspiration for or after riches.</p></li>
+				  <li><p class="first">Assent to (রাজী হওয়া) -I assented to the proposal.</p></li>
+				  <li><p class="first">Assign to (নির্দিষ্ট করে দেয়া) -He assigned the task to me.</p></li>
+				  <li><p class="first">Associated with (কারো সাথে জড়িত),in(কোন বিষয়ে জড়িত) -He was associated with you in the plot.</p></li>
+				  <li><p class="first">Attacked by (আক্রান্ত)(a person),with(fever) -He was attacked by robbers on the way.He has been attacked with fever.</p></li>
+				  <li><p class="first">Attain to (অর্জন করা) -He attained to greatness by dint of perseverance.</p></li>
+				  <li><p class="first">Attribute (আরোপ করা)(a loss)(to a person) -He attributed the loss to me.</p></li>
+				  <li><p class="first">Attend to (মনোযোগ দেওয়া) -Students should attend to their lessons.</p></li>
+				  <li><p class="first">Attend at (গমন করা) -He does not attend at his office in time.</p></li>
+				  <li><p class="first">Attentive to (মনযোগী) -Students should be attentive to their lessons.</p></li>
+				  <li><p class="first">Attach to (জুড়ে দেওয়া) -I attached the documents to the application.</p></li>
+				  <li><p class="first">Attend on (সেবা করা) -A nurse attends on patients.</p></li>
+				  <li><p class="first">Approve of (অনুমোদন করা) -I approved of his action.</p></li>
+				  <li><p class="first">Aspire after,to (আকাঙ্খা করা) -Man aspires after riches.</p></li>
+				  <li><p class="first">Appoint to (নিয়োগ করা) -The Principal appointed him to the post.</p></li>
+				  <li><p class="first">Avenge on,for (কারো উপর কোন কিছুর প্রতিশোধ নেয়া) -I avenged on him for his rudeness.</p></li>
+				  <li><p class="first">Atone for (প্রায়শ্চিত্ব করা) -A sinner has to atone for his sins.</p></li>
+				  <li><p class="first">Authority on(কিছুতে বিশেষজ্ঞ) -Subeen has authority on all programming language.</p></li>
+				  <li><p class="first">Authority over,with (আধিপত্য) -He has no authority over his sons.</p></li>
+				  <li><p class="first">Authority for (অধিকার) -What is your authority for such a statement?</p></li>
+				  <li><p class="first">Authority to (ক্ষমতা ) -Only the secretary has authority to make payments.</p></li>
+				  <li><p class="first">Attune to (নিমগ্ন) -Their minds were attuned to the music.</p></li>
+				  <li><p class="first">Aversion to (বিতৃষ্ণা) -I have a serious aversion to smoking.</p></li>
+				  <li><p class="first">Avail of (সুযোগ নেয়া) (oneself) of -I availed myself of the opportunity.</p></li>
+				  <li><p class="first">Available to -His help was available to me.</p></li>
+				  <li><p class="first">Aware of (অবগত) -He is aware of the fact.</p></li>
+                </ul>
+            </div>
+            <div data-role="footer" style="">
+                <h4><a href="#" onclick="window.open('http://w3cp.blogspot.com', '_system');">w3cp.blogspot.com</a></h4>
+            </div>
+        </div> <!-- Finish mainpage -->
+        <!--Javascript-->
+        <!--<script type="text/javascript" src="js/cordova.js"></script>-->
+        <script src="code.jquery.com/jquery-2.1.3.min.js"></script>
+        <script src="code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+        <script type="text/javascript" src="js/index.js"></script>
+    </body>
+</html>

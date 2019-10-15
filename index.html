@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="theme-color" content="lightgray">
+        <meta name="format-detection" content="telephone=no" />
+        <meta name="msapplication-tap-highlight" content="no" />
+        <!-- WARNING: for iOS 7, remove the width=device-width and height=device-height attributes. See https://issues.apache.org/jira/browse/CB-4323 -->
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
+        <link rel="stylesheet" href="pp/code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+        <link rel="stylesheet" type="text/css" href="pp/css/index.css" />
+        <title>Appropriate Preposition</title>
+        <style>
+           .my-theme {background:lightgray !important;}
+        </style>
+    </head>
+    <body style="">
+        <div data-role="page" id="mainPage" style="">
+            <div data-role="header" id="mainHeader" data-position="fixed" class="my-theme">
+                <a style='visibility:hidden;' href="#baseInfo" data-rel="popup" data-position-to="window" data-transition="flip" style="" class="ui-btn ui-btn-inline ui-corner-all ui-icon-info ui-btn-icon-left ui-btn-icon-notext">Choose option</a>
+                <h3>Appropriate Preposition</h3>
+                <a href="#menuPanel" data-transition="flow" style="" class="ui-btn ui-btn-inline ui-corner-all ui-icon-bars ui-btn-icon-right ui-btn-icon-notext">About</a>
+            </div>
+            <div data-role="main" class="ui-content" style="">
+                <!--<h3 style="">Application: Appropriate Preposition</h3>-->
+                <form class="ui-filterable">
+                    <input id="myFilter" data-type="search" placeholder="Search for items...">
+                </form>
+                <ul data-role="listview" data-filter="true" data-input="#myFilter" data-autodividers="false" data-inset="true">
+                    <li> <a href="pp/all.html" data-transition="slide">All Categories</a> </li>
+                    <li> <a href="pp/a.html">A Gallery</a> </li>
+                    <li> <a href="pp/b.html">B Gallery</a> </li>
+                    <li> <a href="pp/c.html">C Gallery</a> </li>
+                    <li> <a href="pp/d.html">D Gallery</a> </li>
+                    <li> <a href="pp/e.html">E Gallery</a> </li>
+                    <li> <a href="pp/f.html">F Gallery</a> </li>
+                    <li> <a href="pp/g.html">G Gallery</a> </li>
+                    <li> <a href="pp/h.html">H Gallery</a> </li>
+                    <li> <a href="pp/i.html">I Gallery</a> </li>
+                    <li> <a href="pp/j.html">J Gallery</a> </li>
+                    <li> <a href="pp/k.html">K Gallery</a> </li>
+                    <li> <a href="pp/l.html">L Gallery</a> </li>
+                    <li> <a href="pp/m.html">M Gallery</a> </li>
+                    <li> <a href="pp/n.html">N Gallery</a> </li>
+                    <li> <a href="pp/o.html">O Gallery</a> </li>
+                    <li> <a href="pp/p.html">P Gallery</a> </li>
+                    <li> <a href="pp/q.html">Q Gallery</a> </li>
+                    <li> <a href="pp/r.html">R Gallery</a> </li>
+                    <li> <a href="pp/s.html">S Gallery</a> </li>
+                    <li> <a href="pp/t.html">T Gallery</a> </li>
+                    <li> <a href="pp/u.html">U Gallery</a> </li>
+                    <li> <a href="pp/v.html">V Gallery</a> </li>
+                    <li> <a href="pp/w.html">W Gallery</a> </li>
+                    <li> <a href="pp/x.html">X Gallery</a> </li>
+                    <li> <a href="pp/y.html">Y Gallery</a> </li>
+                    <li> <a href="pp/z.html">Z Gallery</a> </li>
+                </ul>
+               <!-- <div data-role="popup" id="baseInfo" class="ui-content" style="">
+                    <a href="#" data-rel="back" style="" class="ui-btn ui-corner-all ui-shadow ui-btn ui-icon-delete ui-btn-icon-notext ui-btn-right">Close</a>
+                    <h4 style="text-align:center;">Number System</h4>
+                    <ul data-role="listview" data-inset="true" style="min-width:250px;">
+                        <li data-icon="info" style="">Decimal: Base 10<br>Digits: 0 - 9</li>
+                        <li data-icon="info" style="">Hexadecimal: Base 16<br>Digits: 0 - 9, A, B, C, D, E, F</li>
+                        <li data-icon="info" style="">Octal: Base 8<br>Digits: 0 - 7</li>
+                        <li data-icon="info" style="">Binary: Base 2<br>Digits: 0 , 1</li>
+                    </ul>
+                </div>-->
+            </div> <!--close popup-->
+            <div data-role="panel" id="menuPanel" data-display="reveal" data-position-fixed="true" style="">
+                <h4 style="">Choose option</h4>
+                <ul data-role="listview" data-inset="true" style="min-width:200px;">
+                    <li data-icon="info"><a href="#aboutPop" data-rel="popup" data-position-to="window" data-transition="slideup" style="">About</a></li>
+                    <li data-icon="user"><a href="#aboutMePop" data-rel="popup" data-position-to="window" data-transition="flow" style="">About me</a></li>
+                    <li data-icon="phone"><a href="#contactsPop" data-rel="popup" data-position-to="window" data-transition="flip" style="">Contacts</a></li>
+                    <li data-icon="action"><a href="#followMePop" data-rel="popup" data-position-to="window" data-transition="turn" style="">Follow me</a></li>
+                </ul>
+                <!--<a href="#mainPage" data-rel="close" style="background-color:#001f3f;color:#B10DC9;" class="ui-btn ui-btn-inline ui-shadow ui-corner-all ui-btn-a ui-icon-delete ui-btn-icon-left ui-mini">Close</a>-->
+            </div>
+            <!--popup two-->
+            <div data-role="popup" id="aboutPop" style="">
+                <div data-role="header" style="">
+                    <h1>About this application</h1>
+                </div>
+                <div data-role="main" class="ui-content" >
+                    <h3>Appropriate Preposition</h3>
+                    Learn by practise. <br> <br>
+                    <a href="#mainPage" style="" data-transition="slide" class="my-ui-btn ui-btn ui-btn-inline ui-shadow ui-corner-all ui-icon-check ui-btn-icon-left ui-btn-inline ui-mini" data-rel="back">Ok</a>
+                    <a href="#mainPage" style="" data-transition="slide" class="my-ui-btn ui-btn ui-icon-delete ui-btn-icon-right ui-btn-inline ui-shadow ui-corner-all ui-btn-inline ui-mini" data-rel="back">Cancel</a>
+                </div>
+            </div> <!--end popup two-->
+            <!--popup three-->
+            <div data-role="popup" id="aboutMePop" style="">
+                <div data-role="header" style="">
+                    <h1>About me</h1>
+                </div>
+                <div data-role="main" class="ui-content" style="text-align:justify;">
+                    <h3>Anwar Hossain</h3>
+                    Student of class XII. SSC Roll: 115899, Rajshahi Board, 2014, SHIBPUR HIGH SCHOOL, Patnitala, Noagaon. I love cricket, swimming, programming, reading novels-fiction books and so on. And very fond of music as well<br>
+                    <a href="#mainPage" style="" data-transition="flow" class="my-ui-btn ui-btn ui-btn-inline ui-shadow ui-corner-all ui-icon-check ui-btn-icon-left ui-btn-inline ui-mini" data-rel="back">Ok</a>
+                    <a href="#mainPage" style="" data-transition="flow" data-direction="reverse" class="my-ui-btn ui-btn ui-icon-delete ui-btn-icon-right ui-btn-inline ui-shadow ui-corner-all ui-btn-inline ui-mini" data-rel="back">Cancel</a>
+                </div>
+            </div> <!--end popupthree-->
+            <!--popupfour-->
+            <div data-role="popup" id="contactsPop" style="">
+                <div data-role="header" style="">
+                    <h1>Contact info</h1>
+                </div>
+                <div data-role="main" class="ui-content">
+                    <h4>Website: <a href="#" onclick="window.open('https://coderanwar.github.io', '_system');">coderanwar.github.io</a></h4>
+                    <h4>Email me at: <a href="mailto:jannat.books@gmail.com">jannat.books@gmail.com</a></h4>
+                    <p>&#9743;+8801866675578 &nbsp; &#9743;+8801768310499</p>
+                    <div style='display:inline;'><h4 style='display:inline;'>Address: </h4><marquee style=''>Shashail, Rasulpur [6540], Patnitala, Naogaon, Rajshahi, Bangladesh</marquee></div>
+                    <a href="#mainPage" data-transition="flip" style="" class="my-ui-btn ui-btn ui-btn-inline ui-shadow ui-corner-all ui-icon-check ui-btn-icon-left ui-btn-inline ui-mini" data-rel="back">Ok</a>
+                    <a href="#mainPage" data-transition="pop" style="" class="my-ui-btn ui-btn ui-icon-delete ui-btn-icon-right ui-btn-inline ui-shadow ui-corner-all ui-btn-inline ui-mini" data-rel="back">Cancel</a>
+                </div>
+            </div> <!--end popupfour-->
+            <!--popupfive-->
+            <div data-role="popup" id="followMePop" style="">
+                <div data-role="header" style="">
+                    <h1>Follow me </h1>
+                </div>
+                <div data-role="main" class="ui-content">
+                    <h4>Follow me on GitHub <a href="#" onclick="window.open('https://github.com/w3cp/', '_system');">github.com/w3cp</a></h4>
+                    <h4>Follow me on Facebook <a href="#" onclick="window.open('https://www.facebook.com/anwar.ubuntu', '_system');">fb.com/anwar.ubuntu</a></h4>
+                    <a href="#mainPage" data-transition="turn" style="" class="my-ui-btn ui-btn ui-btn-inline ui-shadow ui-corner-all ui-icon-check ui-btn-icon-left ui-btn-inline ui-mini" data-rel="back">Ok</a>
+                    <a href="#mainPage" data-transition="turn" style="" class="my-ui-btn ui-btn ui-icon-delete ui-btn-icon-right ui-btn-inline ui-shadow ui-corner-all ui-btn-inline ui-mini" data-rel="back">Cancel</a>
+                </div>
+            </div> <!--end popupfive-->
+            <div data-role="footer" data-position="fixed" style="">
+                <!--<h4 style="">w3cp.blogspot.com</h4>-->
+                <h4><a href="#" onclick="window.open('http://w3cp.blogspot.com', '_system');">w3cp.blogspot.com</a></h4>
+            </div>
+        </div> <!-- Finish pageone -->
+        <!--Javascript-->
+        <script src="pp/code.jquery.com/jquery-2.1.3.min.js"></script>
+        <script src="pp/code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+        <script type="text/javascript" src="pp/js/index.js"></script>
+    </body>
+</html>

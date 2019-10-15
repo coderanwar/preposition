@@ -1,0 +1,41 @@
+/* to style link*/
+a { color: #0095DD; text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+/* to style own ui-btn */
+.my-ui-btn {
+    border-radius:200px !important;
+} 
+
+/* to style preposition content */
+li:nth-child(even) {
+    background-color: #ffffff !important;
+}
+li:nth-child(odd) {
+    background-color: #F8F8FF !important;
+} 
+
+/* to style paragraphs first character */
+.first:first-letter{color:#0095DD;font-size:large;}
+
+.pp:first-letter{color:#0095DD;font-size:large;}
+
+/* list design */
+.first, .pp, li {
+    white-space:normal !important;
+    /*word-wrap: break-word;
+    word-break: break-all;
+    overflow: visible;*/
+}
+
+.first {
+    color: #FF851B;
+}
+
+/* to remove extra padding 
+.first {
+    padding : 1%;
+} */
+
+
+

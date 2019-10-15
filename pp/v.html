@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+        <link rel="stylesheet" type="text/css" href="css/index.css" />
+        <!--<link rel="stylesheet" type="text/css" href="css/theme1.css" />-->
+        <title>V Gallery</title>
+<style>
+
+</style>
+    </head>
+    <body style="">
+        <div data-role="page" id="mainPage" style="">
+            <div data-role="header" id="mainHeader" data-position="fixed" style="">
+                <a href='#' style='' class='my-ui-btn ui-btn-left' data-icon='arrow-l' onclick="history.back(); return false">Back</a>
+                <h3>V Gallery</h3>
+                <a href='#' style='' class='my-ui-btn ui-btn-right ui-btn-icon-right' data-icon='arrow-u' onclick="window.location.reload();">Top</a>
+                <form class="ui-filterable" style="padding:0 15px;">
+                    <input id="myFilterA" data-type="search" placeholder="Search for words...">
+                </form>
+            </div>
+            <div data-role="main" class="ui-content" style="">
+
+                <ul data-role="listview" data-filter="true" data-input="#myFilterA" data-autodividers="false" data-inset="true">
+                    <li><p class="first">Vary from, (at) Variance with (পৃথক হওয়া, ভিন্নতর হওয়া) : Opinion varies from man to man. Your story varies (differs) from his. Your story is at variance with his. </p></li>
+                    <li><p class="first">Vain of (গর্বিত) : Hasin is vain of his success. </p></li>
+                    <li><p class="first">Versed in (দক্ষ) : Subeen is versed in programming. </p></li>
+                    <li><p class="first">Vest in (অর্পণ করা) : The power has been vested in the Minister. </p></li>
+                    <li><p class="first">Vexed with (বিরক্তিবোধ) : I am vexed with you / the rude behaviour of you. </p></li>
+                    <li><p class="first">Vexed at (বিক্ষুব্ধ) : I am vexed at your objection to it.</p></li>
+                    <li><p class="first">Vested with (অর্পণ করা, অধিকাররুপে ন্যস্ত করা) : He was vested with absolute power. </p></li>
+                    <li><p class="first">Vie with (প্রতিযোগিতা করা) : </p></li>
+                    <li><p class="first">Visit to (পরিদর্শন) : The inspector went on a visit to a college. </p></li>
+                    <li><p class="first">Victim of (বলি, শিকার) : He was a victim of the earthquake disaster. </p></li>
+                    <li><p class="first">Victim to (শিকার, অর্থলিপ্সা) : Bangladesh falls a victim to flood every year. </p></li>
+                    <li><p class="first">Void of () : Your words are void of meaning. </p></li>
+                    <li><p class="first">Vote for () : Anu voted for me.</p></li>
+                </ul>
+            </div>
+            <div data-role="footer" style="">
+                <h4><a href="#" onclick="window.open('http://w3cp.blogspot.com', '_system');">w3cp.blogspot.com</a></h4>
+            </div>
+        </div> <!-- Finish mainpage -->
+        <!--Javascript-->
+        <!--<script type="text/javascript" src="js/cordova.js"></script>-->
+        <script src="code.jquery.com/jquery-2.1.3.min.js"></script>
+        <script src="code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+        <script type="text/javascript" src="js/index.js"></script>
+    </body>
+</html>

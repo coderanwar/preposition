@@ -1,0 +1,10 @@
+/* to style main content */
+p:nth-child(even) {
+    background-color: #EEE;
+}
+p:nth-child(odd) {
+    background-color: #FFF;
+}
+
+/* to style paragraphs first character */
+p:first-letter{color:#0095DD;font-size:large;}

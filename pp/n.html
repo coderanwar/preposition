@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+        <link rel="stylesheet" type="text/css" href="css/index.css" />
+        <!--<link rel="stylesheet" type="text/css" href="css/theme1.css" />-->
+        <title>N Gallery</title>
+<style>
+
+</style>
+    </head>
+    <body style="">
+        <div data-role="page" id="mainPage" style="">
+            <div data-role="header" id="mainHeader" data-position="fixed" style="">
+                <a href='#' style='' class='my-ui-btn ui-btn-left' data-icon='arrow-l' onclick="history.back(); return false">Back</a>
+                <h3>N Gallery</h3>
+                <a href='#' style='' class='my-ui-btn ui-btn-right ui-btn-icon-right' data-icon='arrow-u' onclick="window.location.reload();">Top</a>
+                <form class="ui-filterable" style="padding:0 15px;">
+                    <input id="myFilterA" data-type="search" placeholder="Search for words...">
+                </form>
+            </div>
+            <div data-role="main" class="ui-content" style="">
+
+                <ul data-role="listview" data-filter="true" data-input="#myFilterA" data-autodividers="false" data-inset="true">
+                    <li><p class="first">Natural to (স্বাভাবিক) -Death is natural to all.</p></li>
+                    <li><p class="first">Necessity for (আবশ্যকতা) -I have no necessity for the loan.</p></li>
+                    <li><p class="first">Necessity to (প্রয়োজনীয়তা) -Rest is necessity to me now. </p></li>
+                    <li><p class="first">Necessary for (দরকারী) -Industry is necessary for success.</p></li>
+                    <li><p class="first">Need of,for (প্রয়োজনীয়) -I have no need for more money.I am in need of more money.I am badly in need of a seat in the hostel.</p></li>
+                    <li><p class="first">Neglectful of (অমনোযোগী) -Students should not be neglectful of their studies.</p></li>
+                    <li><p class="first">Negligent in (অমনোযোগী) -Students should not be negligent in their duties and responsibilities. </p></li>
+                    <li><p class="first">Noted for (খ্যাত) -Mohsin was noted for his kindness.</p></li>
+                </ul>
+            </div>
+            <div data-role="footer" style="">
+                <h4><a href="#" onclick="window.open('http://w3cp.blogspot.com', '_system');">w3cp.blogspot.com</a></h4>
+            </div>
+        </div> <!-- Finish mainpage -->
+        <!--Javascript-->
+        <!--<script type="text/javascript" src="js/cordova.js"></script>-->
+        <script src="code.jquery.com/jquery-2.1.3.min.js"></script>
+        <script src="code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+        <script type="text/javascript" src="js/index.js"></script>
+    </body>
+</html>

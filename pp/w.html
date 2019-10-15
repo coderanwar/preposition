@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+        <link rel="stylesheet" type="text/css" href="css/index.css" />
+        <!--<link rel="stylesheet" type="text/css" href="css/theme1.css" />-->
+        <title>W Gallery</title>
+<style>
+
+</style>
+    </head>
+    <body style="">
+        <div data-role="page" id="mainPage" style="">
+            <div data-role="header" id="mainHeader" data-position="fixed" style="">
+                <a href='#' style='' class='my-ui-btn ui-btn-left' data-icon='arrow-l' onclick="history.back(); return false">Back</a>
+                <h3>W Gallery</h3>
+                <a href='#' style='' class='my-ui-btn ui-btn-right ui-btn-icon-right' data-icon='arrow-u' onclick="window.location.reload();">Top</a>
+                <form class="ui-filterable" style="padding:0 15px;">
+                    <input id="myFilterA" data-type="search" placeholder="Search for words...">
+                </form>
+            </div>
+            <div data-role="main" class="ui-content" style="">
+
+                <ul data-role="listview" data-filter="true" data-input="#myFilterA" data-autodividers="false" data-inset="true">
+                    <li><p class="first">Wait for (a person) (অপেক্ষা করা) : We waited for you at the corner. </p></li>
+                    <li><p class="first">Wait upon (সেবা করা) : I waited upon the guest. </p></li>
+                    <li><p class="first">Want of (noun) (অভাব) , Wanting in (অভাব) : I have no want of money now. She is wanting in common sense. </p></li>
+                    <li><p class="first">Warn against (কারও বিরুদ্ধে সতর্ক করা) : </p></li>
+                    <li><p class="first">Wink at (দেখেও না দেখা) : Parents shouldn't wink at their sons fault.</p></li>
+                    <li><p class="first">Weak in (a subject or mind) (দুর্বল) : He is weak in English .</p></li>
+                    <li><p class="first">Wish for (আকাঙ্খা করা) : Man wishes for happiness. </p></li>
+                    <li><p class="first">Wonder at (বিস্মিত হওয়া) : We wondered at the vastness of the sea. </p></li>
+                    <li><p class="first">Worthy of (যোগ্য) : Jasmine is worthy of praise / favour. </p></li>
+                </ul>
+            </div>
+            <div data-role="footer" style="">
+                <h4><a href="#" onclick="window.open('http://w3cp.blogspot.com', '_system');">w3cp.blogspot.com</a></h4>
+            </div>
+        </div> <!-- Finish mainpage -->
+        <!--Javascript-->
+        <!--<script type="text/javascript" src="js/cordova.js"></script>-->
+        <script src="code.jquery.com/jquery-2.1.3.min.js"></script>
+        <script src="code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+        <script type="text/javascript" src="js/index.js"></script>
+    </body>
+</html>

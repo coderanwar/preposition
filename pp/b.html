@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+        <link rel="stylesheet" type="text/css" href="css/index.css" />
+        <!--<link rel="stylesheet" type="text/css" href="css/theme1.css" />-->
+        <title>B Gallery</title>
+<style>
+
+</style>
+    </head>
+    <body style="">
+        <div data-role="page" id="mainPage" style="">
+            <div data-role="header" id="mainHeader" data-position="fixed" style="">
+                <a href='#' style='' class='my-ui-btn ui-btn-left' data-icon='arrow-l' onclick="history.back(); return false">Back</a>
+                <h3>B Gallery</h3>
+                <a href='#' style='' class='my-ui-btn ui-btn-right ui-btn-icon-right' data-icon='arrow-u' onclick="window.location.reload();">Top</a>
+                <form class="ui-filterable" style="padding:0 15px;">
+                    <input id="myFilterA" data-type="search" placeholder="Search for words...">
+                </form>
+            </div>
+            <div data-role="main" class="ui-content" style="">
+                
+                <ul data-role="listview" data-filter="true" data-input="#myFilterA" data-autodividers="false" data-inset="true">
+				  <li><p class="first">Ban(noun) on (নিষেধ) -There is a ban on the play.</p></li>
+				  <li><p class="first">Ban (verb) from (নিষেধ করা) -He was banned from entering the club.</p></li>
+				  <li><p class="first">Bar to (বাধা) -There is no bar to your trying for the post.</p></li>
+				  <li><p class="first">Bare of (খালি/শূন্য) -The field is bare of trees.</p></li>
+				  <li><p class="first">Bark at (ঘেউ ঘেউ করা) -The dog always barks at a stranger.</p></li>
+				  <li><p class="first">Based on (ভিত্তির ওপর প্রতিষ্ঠিত) -His allegation was based on facts.</p></li>
+				  <li><p class="first">Bask in (রোদ পোহানো) -In winter people bask in the sun.</p></li>
+				  <li><p class="first">Behave towards (ব্যবহার করা) -Behave kindly towards the poor.</p></li>
+				  <li><p class="first">Belong to (অধিকারী হওয়া) -This book belongs to me.</p></li>
+				  <li><p class="first">Bent on (উদ্যত) -He is bent on taking revenge.</p></li>
+				  <li><p class="first">Beware of (সতর্ক হওয়া) -Beware of thieves.</p></li>
+				  <li><p class="first">Beg of (প্রার্থনা করা), for(pray a person for a thing) -He begs mercy of the Principle.The poor beg for alms of the rich.</p></li>
+				  <li><p class="first">Believe in (বিশ্বাস করা) -I do not believe in overloading my stomach.</p></li>
+				  <li><p class="first">Beneficial to (উপকারী) -Morning walk is beneficial to health.</p></li>
+				  <li><p class="first">Bereft of (বঞ্চিত) -Ajmir was bereft of motherly affection.</p></li>
+				  <li><p class="first">Bent upon (সংকল্পবদ্ধ) -He is bent upon going to the meeting.</p></li>
+				  <li><p class="first">Bequeath to (উইলের দ্বারা দিয়ে যাওয়া) -His father bequeathed a portion of his land to his sister.</p></li>
+				  <li><p class="first">Bestow on (প্রদান করা) -Allah bestows His mercy on us.</p></li>
+				  <li><p class="first">Beset with (বেষ্টিত) -The Principal is beset with flatterers.</p></li>
+				  <li><p class="first">Bias (পক্ষপাতিত্ব,ঝোঁক) against,towards -I have no bias(prejudice) against him (or towards anything particular).</p></li>
+				  <li><p class="first">Blushwith (আরক্তিম বদন হওয়া) -She blushed with shame at his own mistake.</p></li>
+				  <li><p class="first">Blessed with (আশিসধন্য) -Bangladesh is blessed with natarul resources.</p></li>
+				  <li><p class="first">Blind of (অন্ধ) -The man is blind of one eye.</p></li>
+				  <li><p class="first">Blind to (দেখেও না দেখা) -He is blind to his son's fault.</p></li>
+				  <li><p class="first">Boast of (দম্ভ করা) -She boasts of her beauties.</p></li>
+				  <li><p class="first">Born in (জন্ম) -She was born in Rajshahi.</p></li>
+				  <li><p class="first">Born of (জাত) -I was born of a middle class family.</p></li>
+				  <li><p class="first">Born to (জন্ম দেওয়া) -A female child was born to her.</p></li>
+				  <li><p class="first">Borrow from (ধার নেয়া) -He borrowed a book from me.</p></li>
+				  <li><p class="first">Bound for (কোন স্থানের উদ্দেশ্যে যাত্রা) -The ship is bound for London.</p></li>
+				  <li><p class="first">Border on (সীমান্তবর্তী হওয়া) -His conduct borders on cruelty.</p></li>
+				  <li><p class="first">Bow to (নত হওয়া) -You should bow to your superiors.</p></li>
+				  <li><p class="first">Brood on or over (বিষন্নভাবে চিন্তা করা) -One should not brood on or over one's failure.</p></li>
+				  <li><p class="first">Burdened with (ভারাক্রান্ত) -Humayun was burdened with a family.</p></li>
+				  <li><p class="first">Burst into (কান্নায় ভেঙ্গে পড়া) -Suddenly she burst into tears.</p></li>
+				  <li><p class="first">Burst out (হাসিতে ফেটে পড়া) -They burst out into a laughter hearing my jokes.</p></li>
+				  <li><p class="first">Busy at (ব্যস্ত) -The student is busy at his table.</p></li>
+				  <li><p class="first">Busy in (ব্যস্ত) -He is busy in doing his work.</p></li>
+                    <li><p class="first">Busy with (ব্যস্ত) -He is busy with his lessons.</p></li>
+				  <li><p class="first">Busy about (ব্যস্ত) -She was always busy about nothing.</p></li>
+				  <li><p class="first">Buy of (কারো কিছু কেনা) -I bought this book of him.</p></li>
+				  <li><p class="first">Buy from (কোন দোকান থেকে কোনকিছু কেনা) -I bought this book from his shop.</p></li>
+                </ul>
+            </div>
+            <div data-role="footer" style="">
+                <h4><a href="#" onclick="window.open('http://w3cp.blogspot.com', '_system');">w3cp.blogspot.com</a></h4>
+            </div>
+        </div> <!-- Finish mainpage -->
+        <!--Javascript-->
+        <!--<script type="text/javascript" src="js/cordova.js"></script>-->
+        <script src="code.jquery.com/jquery-2.1.3.min.js"></script>
+        <script src="code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+        <script type="text/javascript" src="js/index.js"></script>
+    </body>
+</html>

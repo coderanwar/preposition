@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+        <link rel="stylesheet" type="text/css" href="css/index.css" />
+        <!--<link rel="stylesheet" type="text/css" href="css/theme1.css" />-->
+        <title>D Gallery</title>
+<style>
+
+</style>
+    </head>
+    <body style="">
+        <div data-role="page" id="mainPage" style="">
+            <div data-role="header" id="mainHeader" data-position="fixed" style="">
+                <a href='#' style='' class='my-ui-btn ui-btn-left' data-icon='arrow-l' onclick="history.back(); return false">Back</a>
+                <h3>D Gallery</h3>
+                <a href='#' style='' class='my-ui-btn ui-btn-right ui-btn-icon-right' data-icon='arrow-u' onclick="window.location.reload();">Top</a>
+                <form class="ui-filterable" style="padding:0 15px;">
+                    <input id="myFilterA" data-type="search" placeholder="Search for words...">
+                </form>
+            </div>
+            <div data-role="main" class="ui-content" style="">
+                
+                <ul data-role="listview" data-filter="true" data-input="#myFilterA" data-autodividers="false" data-inset="true">
+                    <li><p class="first">Dawn on (প্রতিভাত হওয়া) -At last the truth dawned on him.</p></li>
+                    <li><p class="first">Deal in (ব্যবসা করা) -He deals in rice.</p></li>
+                    <li><p class="first">Deal with ব্যবহার করা) -He does not konw how to deal with a sweet girl.</p></li>
+                    <li><p class="first">Debar (বঞ্চিত) from -He was debarred from voting.</p></li>
+                    <li><p class="first">Decide upon (স্থির করা) -The boy has not decided upon his programme.</p></li>
+                    <li><p class="first">Decide against (বিরুদ্ধে সিদ্ধান্ত নেয়া) -The judgement was decided against the innocent girl.</p></li>
+                    <li><p class="first">Dedicate to (উৎসর্গ করা) -Roni Da, I want to dedicate the song 'Sonar Bangla' by james and 'Rnangoner Daakticket' or 'Amor Ekushe' by Anuseh Ana Dil to the  listeners of Radio Today. ....</p></li>
+                    <li><p class="first">Defend from (রক্ষা করা) -One should defend oneself from from evil temptations.</p></li>
+                    <li><p class="first">Defend against (নিরাপত্তা বিধান করা) -We should defend our country against all attacks.</p></li>
+                    <li><p class="first">Defer to (মূলতুবী রাখা) -The discussion was deferred to the next meeting.</p></li>
+                    <li><p class="first">Delete from (বাদ দেয়া) -The song was deleted(removed) from the playlist.</p></li>
+                    <li><p class="first">Delegate to (ন্যস্ত করা) -The power was delegated to the subordinates.</p></li>
+                    <li><p class="first">Deliberate upon(discuss) (আলোচনা করা) -We deliberated long upon(considered) the matter.</p></li>
+                    <li><p class="first">Delight in (আনন্দিত হওয়া) -I delight in Computer Programming.</p></li>
+                    <li><p class="first">Deliver to (পৌঁছে দেয়া) -I delivered his letter to his mother.</p></li>
+                    <li><p class="first">Delve into (গভীর গবেষণা করা) -You should delve into the problem.</p></li>
+                    <li><p class="first">Deficient in (অদক্ষ) -The boy is deficient in English.</p></li>
+                    <li><p class="first">Demand for (চাহিদা) -Ajmir had no demand for high amount.</p></li>
+                    <li><p class="first">Demand from or of (দাবি করা) -I demanded the amount from him.</p></li>
+                    <li><p class="first">Depend upon (নির্ভর করা) -He depended upon her word.</p></li>
+                    <li><p class="first">Dependent on (নির্ভরশীল) -Our family is dependent on me.</p></li>
+                    <li><p class="first">Deprive of (বঞ্চিত হওয়া) -She was deprived of the property.</p></li>
+                    <li><p class="first">Derive from (পাওয়া) -Wordsworth derived much inspiration from his sister.</p></li>
+                    <li><p class="first">Deserving of (যোগ্য) -His honesty is deserving of praise.</p></li>
+                    <li><p class="first">Desire for or of (আকাঙ্খা) -I have no desire for riches.</p></li>
+                    <li><p class="first">Despair of (হতাশ হওয়া) -A lazy boy always despairs of success in life.</p></li>
+                    <li><p class="first">Descend from (বংশোদ্ভুত) -He claims to have descended from a noble family.</p></li>
+                    <li><p class="first">Desirous of (ইচ্ছুক) -My father is not desirous of wealth.</p></li>
+                    <li><p class="first">Destined for or to (নির্ধারিত) -I am destined for teaching profession.</p></li>
+                    <li><p class="first">Destitute of (শূন্য) -A street urchin is destitute of wealth.</p></li>
+                    <li><p class="first">Destructive of or to (ক্ষতিক্ষারক) -Smoking is destructive to/of health.</p></li>
+                    <li><p class="first">Detach from (বিচ্ছিন্ন) -He is detached from his family.</p></li>
+                    <li><p class="first">Determined on (সংকল্পবদ্ধ) -I am determined on carrying on my studies.</p></li>
+                    <li><p class="first">Detrimental to (বিপজ্জনক,ক্ষতিকারক) -Smoking is detrimental to health.</p></li>
+                    <li><p class="first">Deviate from (My father never deviated from the truth.</p></li>
+                    <li><p class="first">Devoid of (বর্জিত) -He is devoid of common sense.</p></li>
+                    <li><p class="first">Devote to (নিয়োজিত করা) -Subeen devoted all his energy to make the site useful.</p></li>
+                    <li><p class="first">Delighted at, with (আনন্দিত) -He is delighted at or with the result/output.</p></li>
+                    <li><p class="first">Demur to (আপত্তি করা) -I do not demur to your request.</p></li>
+                    <li><p class="first">Depute to (প্রতিনিধিত্ব করা) -He was deputed to attend the meeting.</p></li>
+                    <li><p class="first">Descendant of (জাত) -The Mughals claim to be descendants of the Mongalians.</p></li>
+                    <li><p class="first">Desist from (বিরত হওয়া) -He desisted from (gave up) the temptation.</p></li>
+                    <li><p class="first">Die of (কোন রোগে মৃত্যু) -He died of cholera.</p></li>
+                    <li><p class="first">Die from (কোন কারণে মৃত্যু ) -He died from over eating.</p></li>
+                    <li><p class="first">Die by (আকস্মিক বা ইচ্ছাকৃতভাবে মৃত্যু) -He died by suicide or an accident.</p></li>
+                    <li><p class="first">Die for (আত্মত্যাগ করা) -We are ready to die for our country.</p></li>
+                    <li><p class="first">Differ from (এক বস্তু সাথে অন্য বস্তুর পার্থক্য করা) -The rose differs from nightjasmine.</p></li>
+                    <li><p class="first">Differ with (ভিন্নমত পোষণ করা) -I differ with you on this point.</p></li>
+                    <li><p class="first">Different from (পৃথক) -This pen is different from that.</p></li>
+                    <li><p class="first">Diffident of (আত্মবিশ্বাসহীন) -A lazy boy is always diffident of success.</p></li>
+                    <li><p class="first">Disgrace to (লজ্জা) -A notorious boy is disgrace to his family.</p></li>
+                    <li><p class="first">Disgusted with,at (কারো প্রতি কোনো কিছুতে বিরক্ত) -The teacher is disgusted with the student at his misconduct.</p></li>
+                    <li><p class="first">Dislike to/for (অপছন্দ) -I have a dislike to evil company.</p></li>
+                    <li><p class="first">Displeased with (অসন্তুষ্ট) -The teacher is displeased with the student.</p></li>
+                    <li><p class="first">Dispose of (সুসম্পন্ন করা,বিক্রয় করা) -He disposed of his books.</p></li>
+                    <li><p class="first">Disqualified for (অনুপযুক্ত) -You are disqualified for the post for your overage.</p></li>
+                    <li><p class="first">Dispute with,about or on (বিবাদ) -There is none to dispute with my right.</p></li>
+                    <li><p class="first">Dissimilar to (বিসদৃশ) -This pen is dissimilar to that.</p></li>
+                    <li><p class="first">Distinguish between (পার্থক্য দেখান) -Distinguish between the two.</p></li>
+                    <li><p class="first">Distinguish from (এক জিনিষ হতে অন্য জিনিসের পার্থক্য দেখান) -He tried to distinguish right from wrong.</p></li>
+                    <li><p class="first">Distract from (অমনোযোগী করা) -The music distracted my attention from my study.</p></li>
+                    <li><p class="first">Distrust of (অবিশ্বাস ) -An honest man has no distrust of anyone.</p></li>
+                    <li><p class="first">Dispense with (বরখাস্ত করা) -The Headmaster dispensed the clerk with his services.</p></li>
+                    <li><p class="first">Difference between (পার্থক্য) -What is the difference between the two.</p></li>
+                    <li><p class="first">Disappointed with (কারো সাথে হতাশ) -I am disappointed with her.</p></li>
+                    <li><p class="first">Disappointed at (কোন কিছুতে হতাশ) -She was disappointed at your failure.</p></li>
+                    <li><p class="first">Disappointed of (কোন কিছুর জন্য হতাশ) -I am disappointed of that.</p></li>
+                    <li><p class="first">Disagree with (ভিন্নমত হওয়া) one on -I disagree with you on this point.</p></li>
+                    <li><p class="first">Discriminate (one thing) from (another) (পৃথক করা) -You should discriminate good girls from bad ones.Ok?</p></li>
+                    <li><p class="first">Divide into (ভাগ করা) -He divided the mangoes into two equal halves.</p></li>
+                    <li><p class="first">Doubt about/of (সন্দেহ) -I have doubt about his success.</p></li>
+                    <li><p class="first">Due to (কারণ/প্রাপ্য) -I could not go to school due to my illness.The prize was due to you.</p></li>
+                    <li><p class="first">Dull of (বোধ শক্তিহীন) -The boy is dull of hearing.</p></li>
+                    <li><p class="first">Dull at (কাঁচা) -He is dull at English.</p></li>
+                    <li><p class="first">Divert from (পথ পরিত্যাগ করানো) -He diverted me from my purpose.</p></li>
+                    <li><p class="first">Duty to (কর্তব্য) -We must do our duty to our parents.</p></li>
+                    <li><p class="first">Dwell in (বাস করা) -She dwells in a fine house.</p></li>
+                    <li><p class="first">Dwell upon (আলোচনা করা) -The teacher dwelled upon the subject.</p></li>
+                </ul>
+            </div>
+            <div data-role="footer" style="">
+                <h4><a href="#" onclick="window.open('http://w3cp.blogspot.com', '_system');">w3cp.blogspot.com</a></h4>
+            </div>
+        </div> <!-- Finish mainpage -->
+        <!--Javascript-->
+        <!--<script type="text/javascript" src="js/cordova.js"></script>-->
+        <script src="code.jquery.com/jquery-2.1.3.min.js"></script>
+        <script src="code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+        <script type="text/javascript" src="js/index.js"></script>
+    </body>
+</html>
